@@ -26,7 +26,7 @@ import Contact_us from './components/serviceSection/Contact_us';
 import TypeForm from './components/FormSteps/TypeForm';
 import FormTeam from './components/FormSteps/FormTeam';
 import FormProject from './components/FormSteps/FormProject';
-import SignUp from './components/SignUp';
+// import SignUp from './components/SignUp';
 
 const router = createBrowserRouter([
   {
@@ -35,7 +35,6 @@ const router = createBrowserRouter([
     errorElement: <Error />,
     children: [
       { index: true, element: <Home /> },
-      { path: "/:id", element: <DetailsCard /> },
       { path: "about", element: <About /> },
       { path: "services", element: <Services /> },
       { path: "services/:id", element: <ServiceDesign /> },
@@ -44,8 +43,8 @@ const router = createBrowserRouter([
       { path: "joinMacber", element: <Careers /> },
       { path: "joinMacber/:id", element: <CareerDetails /> },
       { path: "insights", element: <Instght /> },
-      { path: "signUp", element: <SignUp/> },
-
+      // { path: "signUp", element: <SignUp/> },
+      { path: "signUp", element: <Error /> },
       { path: "insights/:id", element: <DetalsCardInt /> },
       {
         path: "contact-us",
@@ -54,8 +53,11 @@ const router = createBrowserRouter([
           { index: true, element: <TypeForm /> },
           { path: "project", element: <FormTeam /> },
           { path: "team", element: <FormProject /> },
+          { path: "*", element: <Error /> },
         ],
       },
+      { path: ":id", element: <DetailsCard /> },
+      { path: "*", element: <Error /> },
     ],
   },
 ]);

@@ -6,13 +6,19 @@ import SectionHeader from "../../Layout/SectionHeader";
 import SectionTitle from "../../Layout/SectionTitle";
 import Media from "../../UI/Media";
 import CardDetalis from "../../UI/CardDetalis";
+import Error from "../../Layout/404";
+
 const DetalsCardInt = () => {
   const { id } = useParams();
+  const card = CardsIn.find((item) => item.id == id);
+
+  if (!card) {
+    return <Error />;
+  }
+
   return (
     <div>
-      {CardsIn.filter((item) => item.id == id).map((card, index) => {
-        return (
-          <div key={index}>
+      <div>
             <div className="overflow">
               <MainHeaderWrapper bg={card.img} height="54rem" animate={true}>
                 <SectionHeader
@@ -86,8 +92,6 @@ const DetalsCardInt = () => {
               </div>
             </div>
           </div>
-        );
-      })}
     </div>
   );
 };

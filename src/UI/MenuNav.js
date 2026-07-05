@@ -62,20 +62,16 @@ const MenuNav = (props) =>{
                     Join Macber
                   </NavLink>
                 </li>
+                {/* Sign up — disabled
                 <li className="nav-item ">
               <NavLink
                 className={`nav-link   ${classes.nav_link}`}
-              
                 to={"/signUp"}
               >
                 Sign up
-              
-                {/* <SignArrow/> */}
-
-                {/* <img src={arr}/> */}
-                {/* <span  className="lightWhite text-decoration-none btn-outline-white btn">Our work</span> */}
               </NavLink>
             </li>
+            */}
               </ul>
             </div>
           </div>
