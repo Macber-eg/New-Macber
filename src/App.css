@@ -7,7 +7,7 @@ body{
 :root{
   --main-font: 'Lexend', sans-serif;
   --babyBlue-color: #69DEEF;
-  --primaryBlue-color: #2C60F2;
+  --primaryBlue-color: #07174C;
   --secBlue-color: #102EA8;
   --darkGreen-color: #3F484A;
   --lightGrey-color: #E5E5E5;
@@ -21,11 +21,11 @@ body{
   --lightGrey3-color:#f3f3ee87;
   --lightGrey4-color:#9aa3a5;
   --darkBlue2-color: #001550;
-  --lightBlue3-color: #0E4FE3;
+  --lightBlue3-color: #07174C;
   --lightBlu4-color: #F9F9F9;
   --lightGrey5-color: #6F797A;
   --lightGrey6-color: #D4D4D4;
-  --blue_dark_color:#0E4FE3;
+  --blue_dark_color:#07174C;
   --New_blue:#01174F;
   /* grid */
   --desktopWidth: 6/-6;
@@ -557,7 +557,7 @@ textarea{
   align-items: center;
 } */
 .Carer-btn.blue{
-  color: #0E4FE3;
+  color: #07174C;
 }
 .Carer-Card{
     background-color: #8992942e;

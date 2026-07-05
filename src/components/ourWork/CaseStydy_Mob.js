@@ -98,8 +98,7 @@ const CaseStydy_Mob = () => {
               srclogo={Golden}
               span={"Golden"}
               platform={"Deal"}
-              title={`  The Golden Deal was established for e-commerce, and it is an
-                electronic platform that enables the user to sell his products...`}
+              title={`The Golden Deal was established for e-commerce, and it is an electronic platform that enables the user to sell his products...`}
               srcImg={GoldMob}
             />
           </div>
@@ -109,8 +108,7 @@ const CaseStydy_Mob = () => {
               srclogo={Golden}
               span={"The"}
               platform={" Legal Clinic"}
-              title={`  Is The First Law Firm Specialized In Serving And Supporting
-                                                      Startups And Empowering Entrepreneurship In MENA Region..`}
+              title={`Is The First Law Firm Specialized In Serving And Supporting Startups And Empowering Entrepreneurship In MENA Region..`}
               srcImg={ClinicMob}
             />
           </div>

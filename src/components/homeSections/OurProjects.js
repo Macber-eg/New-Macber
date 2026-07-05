@@ -46,7 +46,7 @@ const OurProjects = ()=>{
   }, [handleScroll]);
   
   const images = [
-      {img: oz_bg, color:'#0E4FE3',backgroundColor: '#fff'},
+      {img: oz_bg, color:'#07174C',backgroundColor: '#fff'},
       {img: hpo, color:'#936AFF',backgroundColor: '#fff'},
       {img: royal, color:'#1582CC',backgroundColor: '#fff'},
       {img: riders, color:'#2b48c1',backgroundColor: '#fff'},  

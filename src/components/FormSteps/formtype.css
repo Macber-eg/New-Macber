@@ -58,13 +58,13 @@
 
 .btn-next-step{
     color:var(--lightBlu4-color);
-    background-color: #0E4FE3;
+    background-color: #07174C;
      /* z-index: 3 !important; */
 
 }
 .btn-next-step:hover {
 background-color: var(--lightBlu4-color) !important;
-color: #0E4FE3 !important;
+color: #07174C !important;
 }
 
 .btn_step_back.estimate{

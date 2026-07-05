@@ -24,15 +24,15 @@ return (
           <MainHeaderWrapper bg={bg} height="54rem" animate={true}>
             <SectionHeader
             titleName='w-70'
-              title={"We design, build, and develop products that people love"}
+              title={"We Design, Build & Scale Digital Solutions That Transform Businesses"}
               desc={
-                "We help businesses build exceptional software solutions by providing access to top-tier technical talent and product development expertise "
+                "Macber is a global technology partner enabling digital transformation across MENA and beyond through agile teams, intelligent automation, and immersive event technologies."
               }
               to="/contact-us/project#form"
-              callToActionOne={"Build your product"}
+              callToActionOne={"Build with Precision"}
               onClickOne={handleItem}
               idOne={"Build_product"}
-              callToActionTwo={"Build your Team"}
+              callToActionTwo={"Partner for Growth"}
               onClickTwo={handleItem}
               idTwo={"Build_Team"}
               to2="/contact-us/team#form"

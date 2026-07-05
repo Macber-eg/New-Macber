@@ -14,9 +14,7 @@ const Jarallax = ({ target }) => {
           <div className="container parallax_bg_gradiant">
             <div className="col-12 col-lg-8 mx-auto text-center parallax_bg">
               <Paragraph className="title-white mb-4">
-                Got a project in mind?
-                <br />
-                Tell us about it.
+                Got a project in mind?Tell us about it.
               </Paragraph>
               <HashLink
                 to="/contact-us#form"

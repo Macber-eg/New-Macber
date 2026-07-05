@@ -1,8 +1,8 @@
 import { useState, useEffect } from 'react';
 import { NavLink, useLocation } from "react-router-dom";
 import logoWhite from '../assets/Logo-Macber-White.0a181f36be89a8415154.png';
+import logoColored from '../assets/logo-Macber-Colored.d0cd4adff2c1c7a1aa20.png';
 import logoLight from '../assets/icons/Logo_light.svg';
-import logoDark from '../assets/icons/Logo_blue.svg';
 import Logo from '../UI/Logo';
 import { useAnimate, stagger } from "framer-motion";
 import { MenuToggle } from "../UI/MenuToggle";
@@ -105,7 +105,7 @@ const Header = () => {
   const [isActive, setIsActive] = useState(true);
   const getFillColor = () => {
     if (isActive) {
-      return isStrickyFixed ? "#2C60F2" : "#69DEEF";
+      return isStrickyFixed ? "#07174C" : "#69DEEF";
     } else {
       return isStrickyFixed ? "#000000" : "#F4F7FE";
     }
@@ -114,7 +114,7 @@ const Header = () => {
 
 
   const logoSrc = isStrickyFixed
-    ? logoDark
+    ? logoColored
     : isHome
       ? logoWhite
       : logoLight;
@@ -157,10 +157,10 @@ const Header = () => {
                 className={`nav-link px-0 ${classes.nav_link}`}
                 style={({ isActive }) => ({
                   color: isActive
-                    ? `${isStrickyFixed ? "#2C60F2" : "#69DEEF"}`
+                    ? `${isStrickyFixed ? "#07174C" : "#69DEEF"}`
                     : `${isStrickyFixed ? "#000000" : "#F4F7FE"}`,
                   borderBottom: isActive
-                    ? `2px solid ${isStrickyFixed ? "#2C60F2" : "#69DEEF"}`
+                    ? `2px solid ${isStrickyFixed ? "#07174C" : "#69DEEF"}`
                     : "none",
                   fontWeight: isActive ? 800 : 400,
                 })}
@@ -177,10 +177,10 @@ const Header = () => {
                 className={`nav-link px-0 ${classes.nav_link}`}
                 style={({ isActive }) => ({
                   color: isActive
-                    ? `${isStrickyFixed ? "#2C60F2" : "#69DEEF"}`
+                    ? `${isStrickyFixed ? "#07174C" : "#69DEEF"}`
                     : `${isStrickyFixed ? "#000000" : "#F4F7FE"}`,
                   borderBottom: isActive
-                    ? `2px solid ${isStrickyFixed ? "#2C60F2" : "#69DEEF"}`
+                    ? `2px solid ${isStrickyFixed ? "#07174C" : "#69DEEF"}`
                     : "none",
                   fontWeight: isActive ? 800 : 400,
                 })}
@@ -196,10 +196,10 @@ const Header = () => {
                 className={`nav-link px-0 ${classes.nav_link}`}
                 style={({ isActive }) => ({
                   color: isActive
-                    ? `${isStrickyFixed ? "#2C60F2" : "#69DEEF"}`
+                    ? `${isStrickyFixed ? "#07174C" : "#69DEEF"}`
                     : `${isStrickyFixed ? "#000000" : "#F4F7FE"}`,
                   borderBottom: isActive
-                    ? `2px solid ${isStrickyFixed ? "#2C60F2" : "#69DEEF"}`
+                    ? `2px solid ${isStrickyFixed ? "#07174C" : "#69DEEF"}`
                     : "none",
                   fontWeight: isActive ? 800 : 400,
                 })}
@@ -228,10 +228,10 @@ const Header = () => {
                 className={`nav-link px-0 ${classes.nav_link}`}
                 style={({ isActive }) => ({
                   color: isActive
-                    ? `${isStrickyFixed ? "#2C60F2" : "#69DEEF"}`
+                    ? `${isStrickyFixed ? "#07174C" : "#69DEEF"}`
                     : `${isStrickyFixed ? "#000000" : "#F4F7FE"}`,
                   borderBottom: isActive
-                    ? `2px solid ${isStrickyFixed ? "#2C60F2" : "#69DEEF"}`
+                    ? `2px solid ${isStrickyFixed ? "#07174C" : "#69DEEF"}`
                     : "none",
                   fontWeight: isActive ? 800 : 400,
                 })}
@@ -247,10 +247,10 @@ const Header = () => {
                 className={`nav-link px-0 ${classes.nav_link}`}
                 style={({ isActive }) => ({
                   color: isActive
-                    ? `${isStrickyFixed ? "#2C60F2" : "#69DEEF"}`
+                    ? `${isStrickyFixed ? "#07174C" : "#69DEEF"}`
                     : `${isStrickyFixed ? "#000000" : "#F4F7FE"}`,
                   borderBottom: isActive
-                    ? `2px solid ${isStrickyFixed ? "#2C60F2" : "#69DEEF"}`
+                    ? `2px solid ${isStrickyFixed ? "#07174C" : "#69DEEF"}`
                     : "none",
                   fontWeight: isActive ? 800 : 400,
                 })}
@@ -266,10 +266,10 @@ const Header = () => {
                 className={`nav-link px-0 ${classes.nav_link}`}
                 style={({ isActive }) => ({
                   color: isActive
-                    ? `${isStrickyFixed ? "#2C60F2" : "#69DEEF"}`
+                    ? `${isStrickyFixed ? "#07174C" : "#69DEEF"}`
                     : `${isStrickyFixed ? "#000000" : "#F4F7FE"}`,
                   borderBottom: isActive
-                    ? `2px solid ${isStrickyFixed ? "#2C60F2" : "#69DEEF"}`
+                    ? `2px solid ${isStrickyFixed ? "#07174C" : "#69DEEF"}`
                     : "none",
                   fontWeight: isActive ? 800 : 400,
                 })}
@@ -286,7 +286,7 @@ const Header = () => {
                 className={`nav-link  lightWhite text-decoration-none btn-outline-white btn py-1  px-3  ${classes.nav_link}`}
                 style={({ isActive }) => ({
                   color: isActive
-                    ? `${isStrickyFixed ? "#2C60F2" : "#69DEEF"}`
+                    ? `${isStrickyFixed ? "#07174C" : "#69DEEF"}`
                     : `${isStrickyFixed ? "#000000" : "#F4F7FE"}`,
                 })}
                 to={"/signUp"}

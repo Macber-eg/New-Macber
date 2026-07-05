@@ -687,7 +687,7 @@ export const Project = [
 //     Details: [
 //       {
 //         PraimaryFont: "Praimary Font",
-//         BgFont: "#0E4FE3",
+//         BgFont: "#07174C",
 //         Familly: "Couture",
 //         StyleFont: `A B C D E F G H I J K L M N O P Q R S T U V W X Y Z 1 2 3 4 5 6 7 8 9 0`,
 //         NameFont: "Couture",
@@ -836,7 +836,7 @@ Develop a straightforward integration system with clear documentation. Offer sup
     Details: [
       {
         PraimaryFont: "Praimary Font",
-        BgFont: "#0E4FE3",
+        BgFont: "#07174C",
         StyleFont: `A B C D E F G H I J K L M N O P Q R S T U V W X Y Z
 A B C D E F G H I J K L M N O P Q R S T U V W X Y Z
 1 2 3 4 5 6 7 8 9 0`,
@@ -978,7 +978,7 @@ A B C D E F G H I J K L M N O P Q R S T U V W X Y Z
     Details: [
       {
         PraimaryFont: "Praimary Font",
-        BgFont: "#0E4FE3",
+        BgFont: "#07174C",
         StyleFont: `A B C D E F G H I J K L M N O P Q R S T U V W X Y Z
 A B C D E F G H I J K L M N O P Q R S T U V W X Y Z
 1 2 3 4 5 6 7 8 9 0`,
@@ -1097,7 +1097,7 @@ Utilize cross-platform development tools for seamless adaptation to various devi
     Details: [
       {
         PraimaryFont: "Praimary Font",
-        BgFont: "#0E4FE3",
+        BgFont: "#07174C",
         StyleFont: `A B C D E F G H I J K L M N O P Q R S T U V W X Y Z
 A B C D E F G H I J K L M N O P Q R S T U V W X Y Z
 1 2 3 4 5 6 7 8 9 0`,
@@ -1212,7 +1212,7 @@ A B C D E F G H I J K L M N O P Q R S T U V W X Y Z
     Details: [
       {
         PraimaryFont: "Praimary Font",
-        BgFont: "#0E4FE3",
+        BgFont: "#07174C",
         StyleFont: `A B C D E F G H I J K L M N O P Q R S T U V W X Y Z
    A B C D E F G H I J K L M N O P Q R S T U V W X Y Z
    1 2 3 4 5 6 7 8 9 0`,
@@ -1322,7 +1322,7 @@ Personalizing the user’s experience adds an additional layer of complexity. De
     Details: [
       {
         PraimaryFont: "Praimary Font",
-        BgFont: "#0E4FE3",
+        BgFont: "#07174C",
         StyleFont: `A B C D E F G H I J K L M N O P Q R S T U V W X Y Z
 A B C D E F G H I J K L M N O P Q R S T U V W X Y Z
 1 2 3 4 5 6 7 8 9 0`,
@@ -1440,7 +1440,7 @@ Furthermore, integrating complex functionalities and features, such as real-time
     Details: [
       {
         PraimaryFont: "Praimary Font",
-        BgFont: "#0E4FE3",
+        BgFont: "#07174C",
         StyleFont: `A B C D E F G H I J K L M N O P Q R S T U V W X Y Z
 A B C D E F G H I J K L M N O P Q R S T U V W X Y Z
 1 2 3 4 5 6 7 8 9 0`,
@@ -1566,7 +1566,7 @@ The primary objectives are to deliver a superior user-friendly experience, ensur
     Details: [
       {
         PraimaryFont: "Praimary Font",
-        BgFont: "#0E4FE3",
+        BgFont: "#07174C",
         StyleFont: `A B C D E F G H I J K L M N O P Q R S T U V W X Y Z
 A B C D E F G H I J K L M N O P Q R S T U V W X Y Z
 1 2 3 4 5 6 7 8 9 0`,

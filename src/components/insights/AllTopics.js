@@ -64,7 +64,7 @@ const AllTopics = ()=> {
                 to={`/insights/${card.id}`}
                 linkColor={"lightBlue3"}
                 linkStyle={"linkHover d-flex"}
-                arrowColor={"#0E4FE3"}
+                arrowColor={"#07174C"}
               />
             </div>
           );

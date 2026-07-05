@@ -2,7 +2,6 @@ import React from "react";
 import SectionTitle from "../../Layout/SectionTitle";
 import Oz from "../../assets/New/work 1.jpg";
 import Golden from "../../assets/New/golden deal.jpg";
-import Rinque from '../../assets/New/RinqueHome.jpg'
 import Legal from "../../assets/New/the legal clinic.jpg";
 import Button from "../../UI/Button";
 import BigCard from "../../UI/BigCard";
@@ -27,24 +26,15 @@ const Mademacber = () => {
             to={"/our-work/2"}
             src={Golden}
             alt={"golden-img"}
-            desc={`  The Golden Deal was established for e-commerce, and it is an
-                electronic platform that enables the user to sell his products..`}
+            desc={`The Golden Deal was established for e-commerce, and it is an electronic platform that enables the user to sell his products..`}
             toBtn={"/our-work/2"}
           />
           <BigCard
             src={Legal}
             to={"/our-work/3"}
             alt={"legalclinc-img"}
-            desc={`  Is The First Law Firm Specialized In Serving And Supporting
-                Startups And Empowering Entrepreneurship In MENA Region.`}
+            desc={`Is The First Law Firm Specialized In Serving And Supporting Startups And Empowering Entrepreneurship In MENA Region.`}
             toBtn={"/our-work/3"}
-          />
-          <BigCard
-            src={Rinque}
-            to={"/"}
-            alt={"legalclinc-img"}
-            desc={`  `}
-            toBtn={"/"}
           />
           {/* <BigCard
             src={Sensi}

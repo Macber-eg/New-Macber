@@ -1,110 +1,76 @@
 import Paragraph from "../../UI/Paragraph";
 import SectionTitle from "../../Layout/SectionTitle";
-import classes from "./WhatWeDo.module.css";
-import Button from "../../UI/Button";
-import Media from "../../UI/Media";
-import MediaSrc from "../../assets/Bg_img.svg";
-import uiuxLogo from "../../assets/icon/Ux.svg";
-import mobileDevIcon from "../../assets/icon/Product.svg";
-import dedicatedDevIcon from "../../assets/icon/Dedicated.svg";
-import sassDev from "../../assets/icon/Saas.svg";
 import BackGroundLight from "../../Layout/BackGroundLight";
+
+const products = [
+  {
+    name: "Macber Studio",
+    subtitle: "Custom-Built Software Solutions",
+    description:
+      "Studio delivers tailored software and automation solutions—designed to solve complex problems, boost efficiency, and drive digital innovation.",
+    items: [
+      "Web & Mobile App Development",
+      "AI Development & Intelligent Automation",
+      "SaaS Platforms & System Architecture",
+      "UX/UI Design",
+    ],
+  },
+  {
+    name: "Macber Amplify",
+    subtitle: "Agile Talent, Deployed at Scale",
+    description:
+      "Scale your capabilities with dedicated engineers, agile squads, and domain experts who integrate seamlessly with your in-house teams. Amplify helps you accelerate product delivery while maintaining quality and control.",
+    items: [
+      "Dedicated development teams",
+      "On-demand staff augmentation",
+      "Agile squads aligned to your roadmap",
+    ],
+  },
+  {
+    name: "Macber Stage",
+    subtitle: "Technology That Powers Exceptional Events",
+    description:
+      "Stage is our event technology suite, built to streamline operations and elevate the attendee experience with robust infrastructure and immersive digital interactions.",
+    items: [
+      "Event Registration Platform",
+      "Event Operations & On-Site Support",
+      "Interactive AR/VR & Experiential Tech",
+    ],
+  },
+];
+
 const WhatWeDo = () => {
   return (
-    <>
-      <section className="py-5">
-        <BackGroundLight className="backGround_light">
-          <div className="container py_5">
-            <div className="row align-items-center flex-lg-row flex-column-reverse">
-              <div className="col-xl-7 col-lg-6 col-md-12 col-sm-12">
-                <SectionTitle sectTilte={"What we do"} />
-                <div className="">
-                  <div className=" mt-xl-5 mt-3">
-                    <div className="d-flex justify-content-start align-items-start">
-                      <Media
-                        type="img"
-                        src={mobileDevIcon}
-                        alt="mobileDevIcon"
-                      />
-                      <div>
-                        <Paragraph className="title-dark ms-4 ">
-                          Product Development
-                        </Paragraph>
-                        <Paragraph className="desc-black w-85 t_just  ms-4">
-                          Full-cycle software product development services from
-                          market research and business analysis to design,
-                          development, and launch.
-                        </Paragraph>
-                      </div>
-                    </div>
-                    <div className="d-flex justify-content-start align-items-start">
-                      <Media type="img" src={uiuxLogo} alt="uiuxLogo" />
-                      <div>
-                        <Paragraph className="title-dark ms-4">
-                          UX/UI Design
-                        </Paragraph>
-                        <Paragraph className="desc-black w-85 t_just ms-4">
-                          Elevate user experiences and captivate audiences with
-                          our bespoke UX/UI services, where seamless design
-                          meets intuitive functionality.
-                        </Paragraph>
-                      </div>
-                    </div>
-                    <div className="d-flex justify-content-start align-items-start">
-                      <Media
-                        type="img"
-                        src={dedicatedDevIcon}
-                        alt="dedicatedDevIcon"
-                      />
-                      <div>
-                        <Paragraph className="title-dark ms-4">
-                          Dedicated Development Team
-                        </Paragraph>
-                        <Paragraph className="desc-black  w-85 t_just ms-4">
-                          Empower your projects with a dedicated development
-                          team, committed to turning your visions into reality
-                          through expertise, collaboration, and unwavering
-                          focus.
-                        </Paragraph>
-                      </div>
-                    </div>
-                    <div className="d-flex justify-content-start align-items-start">
-                      <Media type="img" src={sassDev} alt="sassDev" />
-                      <div>
-                        <Paragraph className="title-dark ms-4 ">
-                          SaaS Development
-                        </Paragraph>
-                        <Paragraph className="desc-black w-85 t_just ms-4">
-                          Unleash the power of cloud-based possibilities with
-                          our SaaS development, crafting solutions that
-                          seamlessly integrate innovation and practicality for
-                          your business success.
-                        </Paragraph>
-                      </div>
-                    </div>
-                  </div>
-                </div>
+    <section className="py-5">
+      <BackGroundLight className="backGround_light">
+        <div className="container py_5">
+          <SectionTitle sectTilte={"What We Do"} />
+          <div className="row g-4 py-4">
+            {products.map((product) => (
+              <div className="col-lg-4 col-md-6 col-12" key={product.name}>
+                <Paragraph className="title-dark bold-500 mb-2">
+                  {product.name}
+                </Paragraph>
+                <Paragraph className="darkBlue font-sm bold-500 mb-3">
+                  {product.subtitle}
+                </Paragraph>
+                <Paragraph className="desc-black t_just mb-3">
+                  {product.description}
+                </Paragraph>
+                <ul className="desc-black t_just ps-3">
+                  {product.items.map((item) => (
+                    <li key={item} className="mb-2">
+                      {item}
+                    </li>
+                  ))}
+                </ul>
               </div>
-              <div className="col-xl-5 col-lg-6 col-md-12 col-sm-12">
-                <div className={classes.control}>
-                  <Media
-                    type="img"
-                    src={MediaSrc}
-                    alt="media name"
-                    className="pic_fit_home border-radus-32"
-                  />
-                </div>
-              </div>
-            </div>
-            <div className="text-center mt-5">
-              <Button className="btn-blue" tagType="link" to="/services">
-                Learn more
-              </Button>
-            </div>
+            ))}
           </div>
-        </BackGroundLight>
-      </section>
-    </>
+        </div>
+      </BackGroundLight>
+    </section>
   );
 };
+
 export default WhatWeDo;

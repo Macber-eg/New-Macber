@@ -28,7 +28,7 @@ const Blog = () => {
                       to={`/${card.id}`}
                       linkColor={"lightBlue3"}
                       linkStyle={"linkHover d-flex"}
-                      arrowColor={"#0E4FE3"}
+                      arrowColor={"#07174C"}
                     />
                   </div>
                 );
@@ -38,7 +38,7 @@ const Blog = () => {
               <Button
                 className="btn-blue btn-scale"
                 tagType="link"
-                to="/Insights"
+                to="/insights"
               >
                 Learn more
               </Button>
